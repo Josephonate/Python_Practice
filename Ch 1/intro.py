@@ -10,7 +10,19 @@ def helloFunction():
 
 helloFunction()
 
-prompt = "What is your name? "
-name = input(prompt)
+# prompt = "What is your name? "
+# name = input(prompt)
 
-print("hello " + name + " how are you?")
+# print("hello " + name + " how are you?")
+
+favoriteLang = " Python "
+print(favoriteLang.rstrip())
+print(favoriteLang.lstrip())
+print(favoriteLang.strip())
+
+print(2+3)
+
+age = 34
+
+age = str(age)
+print("happy " + age + "th birthday")
